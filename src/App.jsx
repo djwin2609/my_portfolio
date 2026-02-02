@@ -1,6 +1,8 @@
 import React, { useMemo, useState } from "react";
 import { motion } from "framer-motion";
 import avatar from "./assets/profile.jpg";
+
+;
 import {
   Mail,
   Phone,
