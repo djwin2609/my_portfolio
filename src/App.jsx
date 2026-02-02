@@ -1,6 +1,6 @@
 import React, { useMemo, useState } from "react";
 import { motion } from "framer-motion";
-import avatar from "./assets/profile.jpg";
+
 
 ;
 import {
@@ -362,7 +362,7 @@ function Hero({ profile, onNavigate }) {
               <div className="flex items-start gap-3">
                 {/* AVATAR */}
                 <img
-                  src={avatar}
+                 src="/profile.jpg"
                   alt="Profile"
                   className="h-12 w-12 rounded-2xl object-cover border border-white/10"
                 />
