@@ -362,10 +362,10 @@ function Hero({ profile, onNavigate }) {
               <div className="flex items-start gap-3">
                 {/* AVATAR */}
                 <img
-                 src="/profile.jpg"
-                  alt="Profile"
-                  className="h-12 w-12 rounded-2xl object-cover border border-white/10"
-                />
+  src={avatar}
+  alt="Profile"
+  className="h-16 w-16 rounded-2xl object-cover border border-white/10 hover:scale-105 transition"
+/>
                 <div className="min-w-0">
                   <div className="text-sm font-semibold">Quick Info</div>
                   <div className="mt-2 space-y-2 text-sm text-slate-200">
